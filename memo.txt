@@ -1,0 +1,36 @@
+php
+クラスの概念
+設計図＝クラス
+例：人形
+●人形の重さは1キロから3キロ
+
+●男の子版と女の子版がある
+
+●男の子版はズボン、女の子版はスカートをはいている
+
+↑クラスのプロパティ
+
+●手を動かす
+
+●挨拶をする
+
+↑クラスのメソッド（関数）
+
+設計図に沿って実際に作られたものを、クラスのインスタンス（実体）
+
+コマンド
+laravelインストール
+composer create-project --prefer-dist laravel/laravel 名前
+
+laravelサーバー立ち上げ
+php artisan serve
+
+npmサーバー立ち上げ
+npm run dev
+
+マイグレート実行
+php artisan migrate
+
+モデルを作成
+php artisan make:model 名前 -m
+
